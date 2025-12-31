@@ -5,7 +5,7 @@ This site primarily focuses on genres such as Synthwave, Retrowave, Outrun, Futu
 
 ---
 
-### Techstack
+### Tech Stack
 React  
 Node.js  
 Express.js  
