@@ -1,23 +1,29 @@
 .menu {
     display: flex;
     justify-content: right;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1rem;
-    color: #f0f0f0;
+    font-weight: 800;
 }
 
 a {
     text-decoration: none;
-    margin-right: 5%;
+    margin-right: 4%;
+
 }
 
 nav a:nth-of-type(3) {
     margin-right: 8%;
 }
 
+.google-login {
+    background-color: blueviolet;
+    font-weight: bold;
+}
 
+a,
 a:visited,
 a:active {
     text-decoration: none;
-    color: #f0f0f0;
+    color: #69cae7;
 }

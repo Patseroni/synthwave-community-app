@@ -1,0 +1,16 @@
+.imgAndDescriptionDiv {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    height: 250px;
+}
+
+.profileImgDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImgDiv {
+    grid-column: 4 / span 2;
+}
+
+.descriptionDiv {}

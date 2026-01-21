@@ -1,10 +1,11 @@
 .songGrid {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1170px;
+    max-width: 1175px;
     text-align: center;
-    background-color: #111;
     justify-content: center;
-    border-radius: 10px;
-
+    border-radius: 20px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    background-color: #141414;
 }
