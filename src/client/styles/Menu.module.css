@@ -1,25 +1,24 @@
 .menu {
     display: flex;
     justify-content: right;
+    align-items: center;
     margin-top: 1rem;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 600;
+    height: 40px;
+    background-color: #292929;
 }
 
 a {
     text-decoration: none;
-    margin-right: 4%;
+    margin-right: 50px;
 
 }
 
-nav a:nth-of-type(3) {
-    margin-right: 8%;
+nav a:nth-of-type(4) {
+    margin-right: 5%;
 }
 
-.google-login {
-    background-color: blueviolet;
-    font-weight: bold;
-}
 
 a,
 a:visited,

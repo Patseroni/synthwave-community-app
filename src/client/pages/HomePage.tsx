@@ -13,22 +13,17 @@ function HomePage() {
             <MainContent>
                 <SearchInput />
                 <div className={styles.songGrid}>
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-                    <SongCard />
-
-
-
+                    <ul>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                        <li><SongCard /></li>
+                    </ul>
                 </div>
 
             </MainContent>

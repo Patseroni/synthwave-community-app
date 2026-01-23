@@ -7,7 +7,7 @@
 }
 
 .innerSearchDiv {
-    grid-column: 14 / span 7;
+    grid-column: 16 / span 7;
     display: flex;
     margin-top: 10px;
     align-items: center;
@@ -21,9 +21,8 @@
 }
 
 .innerSearchDiv input {
-    background-color: #aaa;
-    width: 200px;
-    font-size: 1rem;
+    background-color: #bbb;
+    width: 100%;
     padding-left: 10px;
 }
 
@@ -31,7 +30,7 @@
     width: 80px;
     margin-left: 5px;
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 400;
     background-image: linear-gradient(to bottom, rgb(226, 164, 106), rgb(223, 107, 107));
 }
 
@@ -44,7 +43,7 @@
 }
 
 .discover {
-    /* background-color: rgb(31, 36, 36); */
+    background-color: #222;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -52,12 +51,12 @@
     font-size: 1.2rem;
     font-family: monospace;
     font-weight: 600;
-    letter-spacing: 2rem;
+    letter-spacing: 1.5rem;
     color: #dbcc74;
     height: 40px;
     width: 40%;
     min-width: 365px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .discover p {

@@ -6,8 +6,8 @@ function Menu() {
     return (
         <>
             <nav className={styles.menu}>
-                <NavLink to='/profile'>Profile</NavLink>
                 <NavLink to='/register'>Register</NavLink>
+                <NavLink to='/about'>About</NavLink>
                 <NavLink to='/profile'><GoogleLoginButton /></NavLink>
             </nav >
         </>
